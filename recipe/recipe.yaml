@@ -12,7 +12,7 @@ source:
   sha256: 288d6715232ac6f3dcdb123fbecaa2c0b9a50ea4087e6e87c3f841ab0a8a07fc
 
 build:
-  number: 0
+  number: 1
   # ctypes bindings for PulseAudio (libpulse); the module dlopens libpulse.so
   # at import time, and conda-forge only packages it (pulseaudio-client) for
   # Linux, so this package is Linux-only.
