@@ -7,3 +7,4 @@ conda_build:
 conda_forge_output_validation: true
 provider:
   linux_aarch64: default
+conda_install_tool: pixi
